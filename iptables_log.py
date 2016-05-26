@@ -1,7 +1,5 @@
 import csv
 import re
-
-#import subprocess
 HEADER = ['IN_INTERFACE','OUT_INTERFACE','SOURCE_IP', 'SOURCE_PORT','DEST_IP','DEST_PORT','PROTOCOL']
 resultFile = open("log_iptables.csv",'wb')
 wr = csv.writer(resultFile, dialect='excel')
