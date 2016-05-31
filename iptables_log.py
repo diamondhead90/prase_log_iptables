@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import csv
 import re
 HEADER = ['IN_INTERFACE','OUT_INTERFACE','SOURCE_IP', 'SOURCE_PORT','DEST_IP','DEST_PORT','PROTOCOL']
